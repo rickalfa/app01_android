@@ -18,24 +18,24 @@
         app:layout_constraintVertical_bias="0.884" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_load_vista02"
         android:layout_width="100dp"
         android:layout_height="55dp"
         android:layout_marginStart="236dp"
         android:layout_marginTop="24dp"
-        android:text="vista 2"
+        android:text="Robot 02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_load_vista3"
         android:layout_width="100dp"
         android:layout_height="57dp"
         android:layout_marginStart="236dp"
         android:layout_marginTop="32dp"
-        android:text="Vista 3"
+        android:text="Robot 03"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/button_load_vista02" />
 
     <Button
         android:id="@+id/button_back"
@@ -46,14 +46,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/button_load_vista3" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="100dp"
         android:layout_height="55dp"
         android:layout_marginTop="184dp"
-        android:text="perfil"
+        android:text="Robot 01"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,17 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="172dp"
         android:text="HOME"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="52dp"
+        android:text="X"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
